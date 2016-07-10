@@ -1,3 +1,4 @@
+
 body {
 	background-color: #F9F9F9;
 	font-family: arial, sans-serif;
@@ -5,6 +6,35 @@ body {
 }
 li {
 	display: inline;	
+}
+.unav {
+	color: black;
+	padding-left: 20px;
+	font-size: 12pt;
+}
+#logo {
+	margin: auto;
+	display: block;
+}
+#centernav {
+	text-align: center;
+	width: 100%;
+}
+input[type=text] {
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	display: block;
+	height: 30px;
+	font-size: 25pt;
+}
+input[type=submit] {
+	width: 10%;
+	/*margin: auto;*/
+	height: 50px;
+	font-size: 15pt;
+	
 }
 .bnav {
 	color: grey;
@@ -19,6 +49,7 @@ li {
 	width: 100%;
 	height: 30px;
 	background-color: #DDD;
+	margin: 20px 0px;
 }
 #botlnav {
 	position: absolute;
