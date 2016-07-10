@@ -12,9 +12,15 @@ li {
 	padding-left: 20px;
 	font-size: 12pt;
 }
+#tnav {
+	position: absolute;
+	/*bottom: 8px;*/
+	right: 30px;
+}
 #logo {
 	margin: auto;
 	display: block;
+	margin-top: 20px;
 }
 #centernav {
 	text-align: center;
